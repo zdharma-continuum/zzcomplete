@@ -12,8 +12,11 @@
 
 ZZCOMP_REPO_DIR="${0:h}"
 
-if [[ -z "$ZPLG_CUR_PLUGIN" && "${fpath[(r)$REPO_DIR]}" != $REPO_DIR ]]; then
-    fpath+=( "$REPO_DIR" )
+# According to plugin standard, see:
+# http://zdharma.org/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html#indicator
+if [[ ${zsh_loaded_plugins[-1]} != */zzcomplete && -z ${fpath[(r)${0:h}]} ]]
+then
+    fpath+=( "${0:h}" )
 fi
 
 autoload zz-process-buffer zzcomplete zz-deploy-code
