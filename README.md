@@ -1,4 +1,4 @@
-# ZZ Complete
+# ZZ Complete [![Gitter][gitter-image]][gitter-link]
 
 Complete options from manual pages – press Ctrl-F to start the completer.
 
@@ -80,12 +80,5 @@ git clone https://github.com/zdharma-continuum/zzcomplete.git \
 
 And add `zzcomplete` to your plugin list.
 
-## IRC Channel
-
-Channel `#zplugin@freenode` is a supportive place for all author's projects.
-Connect to: [chat.freenode.net:6697](ircs://chat.freenode.net:6697/%23zplugin)
-(SSL) or [chat.freenode.net:6667](irc://chat.freenode.net:6667/%23zplugin) and
-join #zplugin.
-
-Quick access via Webchat
-[![IRC](https://kiwiirc.com/buttons/chat.freenode.net/zplugin.png)](https://kiwiirc.com/client/chat.freenode.net:+6697/#zplugin)
+[gitter-image]: https://badges.gitter.im/zdharma-continuum/community.svg
+[gitter-link]: https://gitter.im/zdharma-continuum/community
