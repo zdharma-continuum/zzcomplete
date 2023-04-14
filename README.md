@@ -13,13 +13,11 @@ With ZZ Complete, the user can:
 
 1. Search in the manual for arbitrary text related to the option.
 1. Then select the option located nearby the found text.
-1. The user can also read about the possible values of the options and select
-   them.
+1. The user can also read about the possible values of the options and select them.
 
 ## Asciicast
 
-You can resize the video like a standard web page, i.e., with `Ctrl`/`Cmd` +
-`plus` and `Ctrl`/`Cmd` + `minus`.
+You can resize the video like a standard web page, i.e., with `Ctrl`/`Cmd` + `plus` and `Ctrl`/`Cmd` + `minus`.
 
 [![asciicast](https://asciinema.org/a/293365.svg)](https://asciinema.org/a/293365)
 
@@ -27,8 +25,8 @@ You can resize the video like a standard web page, i.e., with `Ctrl`/`Cmd` +
 
 ### Dependencies
 
-The plugin also needs [ZUI](https://github.com/zdharma-continuum/ZUI) plugin and
-a Zsh built with the `zsh/curses` module.
+The plugin also needs [ZUI](https://github.com/zdharma-continuum/ZUI) plugin and a Zsh built with the `zsh/curses`
+module.
 
 ### Manual
 
@@ -62,8 +60,7 @@ antigen bundle zdharma-continuum/zzcomplete
 
 ### Zgen
 
-Add the following to your `.zshrc` file in the same place you're doing your
-other `zgen load` calls in.
+Add the following to your `.zshrc` file in the same place you're doing your other `zgen load` calls in.
 
 ```zsh
 zgen load zdharma-continuum/zzcomplete
